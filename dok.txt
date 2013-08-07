@@ -1,0 +1,38 @@
+
+      2
+      1
+      5
+4 8 3 _
+
+
+left x: 1 2 5 6 7 9 
+left y: 3 4 6 7 8 9
+
+concat uniq: 1 2 3 4 5 6 7 8 9
+
+intersection: 6 7 9
+
+-------------
+
+Det blir fel (man får ingen intersection) om man redan använt en siffra som Y tillåter
+
+
+			
+			  
+1 2 3 4 5 6 7 _
+
+
+newNumber: 3 
+== X == 3,4,5 
+== Y == 3,4,6,9 
+== intersection == 3,4 
+avail after check: 4,5 
+
+
+x7y7
+ + + + + + + + + 
+newNumber: undefined
+== X == 2,3,7 
+== Y == 4,6,9 
+== intersection == 
+avail after check: 2,3 
